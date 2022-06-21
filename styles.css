@@ -1,0 +1,140 @@
+body {
+  margin: 0 10%;
+  background-color: rgb(185, 216, 241);
+}
+
+h1 {
+  color: black;
+  font-family: "Comfortaa", cursive;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+main {
+  background-color: #f5f5f5;
+  border-radius: 7px;
+}
+
+nav {
+  padding: 1%;
+  border-bottom: 2px dashed #666;
+}
+
+.navLinks {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #0000ff;
+}
+
+.prod {
+  padding: 2% 0.5% 2% 2%;
+}
+
+.cat {
+  padding: 2% 2% 2% 0.5%;
+}
+
+.descDiv {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Nunito", sans-serif;
+  color: #333;
+  padding: 0 2% 1%;
+}
+
+.imgDiv {
+  text-align: center;
+}
+
+img {
+  width: 30rem;
+  height: 24rem;
+}
+
+/* Para la página de error */
+
+.errorPage {
+  padding: 2%;
+  text-align: center;
+}
+
+.errorPageP {
+  font-size: 1.5rem;
+  color: #222;
+  font-family: "Comfortaa", cursive;
+}
+
+/* Organización de la tabla del menú */
+
+.tableN {
+  background-color: #f5f5f5;
+  margin: auto;
+  width: 100%;
+  border: 1px solid #999;
+  border-collapse: collapse;
+  border-radius: 1%;
+  overflow: auto;
+  line-height: 2;
+}
+
+.thN,
+.tdN {
+  background-color: #f5f5f5;
+  border: 1px solid #999;
+  width: auto;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.thT {
+  font-size: 1.2rem;
+}
+
+/* Para que el diseño sea responsive (o al menos un intento) */
+
+@media (max-width: 800px) {
+  body {
+    margin: 0 5%;
+  }
+
+  img {
+    width: 15rem;
+    height: 12rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .navLinks {
+    font-size: 0.7rem;
+  }
+  .thT {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    margin: 0 2%;
+  }
+
+  img {
+    width: 12rem;
+    height: 9rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .navLinks {
+    font-size: 0.15rem;
+  }
+  .thT {
+    font-size: 0.2rem;
+  }
+}
